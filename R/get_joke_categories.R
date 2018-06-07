@@ -1,5 +1,6 @@
 #' Get all available joke categories from ICNDB
 #'
+#' @description Get all available joke categories from ICNDB
 #' @return A vector of available joke categories
 #' @examples get_joke_categories()
 #' @export
