@@ -4,7 +4,6 @@ Version: 0.1.0
 Authors@R: person("Chris", "Cardillo", email = "CFCardillo23@gmail.com", role = c("aut", "cre"))
 Description: A wrapper for the lovely ICNDB API.
 Depends: R (>= 3.3.3), httr, jsonlite, stringr, dplyr
-Imports: httr, jsonlite, stringr, dplyr
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
