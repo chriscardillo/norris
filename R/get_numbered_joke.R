@@ -4,6 +4,7 @@
 #' @param joke_number A single integer
 #' @return A single joke
 #' @examples get_numbered_joke(17)
+#' @import httr dplyr jsonlite stringr
 #' @export
 
 get_numbered_joke <- function(joke_number){

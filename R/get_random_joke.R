@@ -3,6 +3,7 @@
 #' @description Get a random Chuck Norris joke
 #' @return A single joke
 #' @examples get_random_joke()
+#' @import httr dplyr jsonlite stringr
 #' @export
 
 get_random_joke <- function(){

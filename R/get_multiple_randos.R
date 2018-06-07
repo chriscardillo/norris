@@ -4,6 +4,7 @@
 #' @param jokes The number of jokes to fetch.
 #' @return A tibble of jokes
 #' @examples get_multiple_randos(10)
+#' @import httr dplyr jsonlite stringr
 #' @export
 
 get_multiple_randos <- function(jokes = 5){

@@ -3,6 +3,7 @@
 #' @description Get number of available jokes in ICNDB
 #' @return A single integer of available jokes in ICNDB
 #' @examples get_joke_count()
+#' @import httr dplyr jsonlite stringr
 #' @export
 
 get_joke_count <- function(){

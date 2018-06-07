@@ -3,6 +3,7 @@
 #' @description Get all available joke categories from ICNDB
 #' @return A vector of available joke categories
 #' @examples get_joke_categories()
+#' @import httr dplyr jsonlite stringr
 #' @export
 
 get_joke_categories <- function(){
