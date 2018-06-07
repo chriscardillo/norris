@@ -24,7 +24,7 @@ get_multiple_randos <- function(jokes = 5){
         httr::content(as = "text", encoding = "UTF-8") %>%
         fromJSON()
 
-      return(random_joke$value %>% dplyr::select(-categories))
+      return(random_joke$value %>% dplyr::select(-categories) %>% dplyr::as_tibble())
 
     } else {
 
