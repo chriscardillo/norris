@@ -13,11 +13,13 @@ devtools::install_github("peppato/norris")
 ```
 # How To Use
 
-Get a random Chuck Norris joke with `get_random_joke()`, or get multiple random jokes with `get_multiple_randos`.
+Get a random Chuck Norris joke with `get_random_joke()`, or get multiple random jokes with `get_multiple_randos()`.
 
 For `get_multiple_randos()` - input the number of jokes you want, if you want!
 
 Otherwise, use `get_numbered_joke()` with a joke number (somewhere between 1 and 558) to get a specific joke.
+
+Utility functions `get_joke_count()` and `get_joke_categories()` are pretty pointless currently.
 
 # Special Notes
 
