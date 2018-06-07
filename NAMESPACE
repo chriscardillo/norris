@@ -3,3 +3,4 @@
 export(get_joke_categories)
 export(get_joke_count)
 export(get_numbered_joke)
+export(get_random_joke)
