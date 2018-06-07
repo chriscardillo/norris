@@ -1,6 +1,6 @@
 # norris
 
-If you ever wanted random Chuck Norris jokes on-demand, this is the package for your.
+If you ever wanted random Chuck Norris jokes on-demand, this is the package for you.
 
 # How To Install
 
