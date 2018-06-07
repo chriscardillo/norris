@@ -16,7 +16,7 @@ get_numbered_joke <- function(joke_number){
 
   joke_number_rounded <- round(joke_number)
 
-  joke_response <- httr::GET(stringr::str_c("http://api.icndb.com/jokes/", joke_number_rounded))
+  joke_response <- httr::GET(stringr::str_c("http://api.icndb.com/jokes/", joke_number_rounded, "?escape=javascript"))
 
   joke <- joke_response %>%
      httr::content(as = "text", encoding = "UTF-8") %>%
