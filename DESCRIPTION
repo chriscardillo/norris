@@ -1,0 +1,10 @@
+Package: norris
+Title: An R package for all of your Chuck Norris needs
+Version: 0.0.0.9000
+Authors@R: person("Chris", "Cardillo", email = "CFCardillo23@gmail.com", role = c("aut", "cre"))
+Description: A wrapper for the lovely ICNDB API.
+Depends: R (>= 3.3.3), httr, jsonlite
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
