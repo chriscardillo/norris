@@ -1,5 +1,5 @@
 Package: norris
-Title: All of your Chuck Norris Needs
+Title: All of Your Chuck Norris Needs
 Version: 0.1.0
 Authors@R: person("Chris", "Cardillo", email = "CFCardillo23@gmail.com", role = c("aut", "cre"))
 Description: Utility functions for the lovely 'ICNDB' API, <http://www.icndb.com/api/>, which allows users to retrieve Chuck Norris jokes either randomly or by joke number.
