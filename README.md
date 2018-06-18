@@ -4,7 +4,9 @@ If you ever wanted random Chuck Norris jokes on-demand, this is the package for 
 
 # How To Install
 
-Simply install `devtools` and then use `install_github` pointing to this repo. See below:
+You can now install via CRAN with `install.packages("norris")`!
+
+Otherwise, for dev version - install `devtools` and then use `install_github` pointing to this repo. See below:
 
 ```r
 install.packages(devtools)
