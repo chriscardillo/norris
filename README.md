@@ -9,7 +9,7 @@ Simply install `devtools` and then use `install_github` pointing to this repo. S
 ```r
 install.packages(devtools)
 
-devtools::install_github("peppato/norris")
+devtools::install_github("chriscardillo/norris")
 ```
 # How To Use
 
